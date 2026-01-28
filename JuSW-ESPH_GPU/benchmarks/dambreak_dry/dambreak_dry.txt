@@ -1,0 +1,8 @@
+dambreak_dry		filename
+1			smoothing kernel function skf = 1, cubic spline kernel by W4 - Spline (Monaghan 1985), = 2, Gauss kernel   (Gingold and Monaghan 1981), = 3, Quintic kernel (Morris 1997)")
+
+10.			time step, or maximum time step if variable time step activated
+0.4                     Courant number
+1.                      output interval (seconds)
+3.                      End of the simulation (seconds)
+1.                      smoothing length coefficient: h=dx*coef (suggested ...)
